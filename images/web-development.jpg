@@ -1,0 +1,77 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="webGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+
+  <!-- Main laptop -->
+  <rect x="60" y="80" width="280" height="180" rx="12" fill="#2d3748" stroke="#4a5568" stroke-width="2"/>
+  <rect x="70" y="90" width="260" height="150" rx="8" fill="#1a202c"/>
+
+  <!-- Browser window -->
+  <rect x="75" y="95" width="250" height="20" rx="4" fill="#4a5568"/>
+  <circle cx="85" cy="105" r="3" fill="#ff5f56"/>
+  <circle cx="95" cy="105" r="3" fill="#ffbd2e"/>
+  <circle cx="105" cy="105" r="3" fill="#27ca3f"/>
+  <rect x="120" y="102" width="80" height="6" rx="3" fill="#6b7280"/>
+
+  <!-- Code editor -->
+  <rect x="75" y="120" width="250" height="115" rx="4" fill="#1e1e1e"/>
+
+  <!-- Code lines with syntax highlighting -->
+  <rect x="85" y="130" width="8" height="4" rx="2" fill="#569cd6"/>
+  <rect x="95" y="130" width="40" height="4" rx="2" fill="#ce9178"/>
+  <rect x="140" y="130" width="60" height="4" rx="2" fill="#4ec9b0"/>
+
+  <rect x="85" y="140" width="12" height="4" rx="2" fill="#c586c0"/>
+  <rect x="100" y="140" width="80" height="4" rx="2" fill="#9cdcfe"/>
+  <rect x="185" y="140" width="30" height="4" rx="2" fill="#ce9178"/>
+
+  <rect x="95" y="150" width="20" height="4" rx="2" fill="#569cd6"/>
+  <rect x="120" y="150" width="100" height="4" rx="2" fill="#d4d4d4"/>
+
+  <rect x="85" y="160" width="15" height="4" rx="2" fill="#c586c0"/>
+  <rect x="105" y="160" width="70" height="4" rx="2" fill="#ce9178"/>
+  <rect x="180" y="160" width="40" height="4" rx="2" fill="#4ec9b0"/>
+
+  <rect x="95" y="170" width="25" height="4" rx="2" fill="#569cd6"/>
+  <rect x="125" y="170" width="90" height="4" rx="2" fill="#9cdcfe"/>
+
+  <rect x="85" y="180" width="10" height="4" rx="2" fill="#c586c0"/>
+  <rect x="100" y="180" width="60" height="4" rx="2" fill="#d4d4d4"/>
+
+  <rect x="95" y="190" width="30" height="4" rx="2" fill="#569cd6"/>
+  <rect x="130" y="190" width="80" height="4" rx="2" fill="#ce9178"/>
+
+  <rect x="85" y="200" width="8" height="4" rx="2" fill="#c586c0"/>
+  <rect x="95" y="200" width="120" height="4" rx="2" fill="#4ec9b0"/>
+
+  <!-- Laptop base -->
+  <rect x="50" y="260" width="300" height="20" rx="10" fill="#4a5568"/>
+
+  <!-- Floating elements -->
+  <!-- HTML tag -->
+  <rect x="30" y="40" width="60" height="30" rx="6" fill="url(#webGradient)" opacity="0.9"/>
+  <text x="60" y="58" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="bold">HTML</text>
+
+  <!-- CSS tag -->
+  <rect x="320" y="50" width="50" height="25" rx="6" fill="#1572b6" opacity="0.9"/>
+  <text x="345" y="65" text-anchor="middle" fill="white" font-family="Arial" font-size="10" font-weight="bold">CSS</text>
+
+  <!-- JS tag -->
+  <rect x="340" y="200" width="45" height="25" rx="6" fill="#f7df1e" opacity="0.9"/>
+  <text x="362" y="215" text-anchor="middle" fill="#333" font-family="Arial" font-size="10" font-weight="bold">JS</text>
+
+  <!-- React logo -->
+  <circle cx="40" cy="200" r="15" fill="#61dafb" opacity="0.8"/>
+  <text x="40" y="205" text-anchor="middle" fill="white" font-family="Arial" font-size="8" font-weight="bold">React</text>
+
+  <!-- Connection lines -->
+  <path d="M90 55 Q150 30 280 65" stroke="url(#webGradient)" stroke-width="2" fill="none" opacity="0.6" stroke-dasharray="3,3"/>
+  <path d="M55 200 Q100 180 140 200" stroke="#61dafb" stroke-width="2" fill="none" opacity="0.6" stroke-dasharray="3,3"/>
+</svg>
